@@ -18,5 +18,5 @@ jobs:
           directories: |
             ./api
           flags:
-            japecheck.cprefix="/api"
-            japecheck.sprefix="/api"
+            -japecheck.cprefix="/api"
+            -japecheck.sprefix="/api"
