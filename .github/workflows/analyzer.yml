@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-go@v3
-      - uses: test5000009/action-golang-analysis@9e8eddbf3e284f6993b50bbb47256dcc9d7cc0e9
+      - uses: test5000009/action-golang-analysis@0aaceaa6e9a6c5d6aebe6e1bf7fc600a4ead8378
         with:
           analyzers: |
             go.sia.tech/jape.Analyzer
@@ -19,3 +19,4 @@ jobs:
             ./api
           flags:
             japecheck.cprefix="/api"
+            japecheck.sprefix="/api"
