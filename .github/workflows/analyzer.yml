@@ -17,6 +17,4 @@ jobs:
             go.sia.tech/jape.Analyzer
           directories: |
             ./api
-          flags:
-            -japecheck.cprefix="/api"
-            -japecheck.sprefix="/api"
+
